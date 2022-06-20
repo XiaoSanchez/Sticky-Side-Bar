@@ -1,0 +1,179 @@
+#top,
+#foot {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.sinye {
+    background-color: #f7f7f7;
+}
+
+.sinye .ann_daoh {
+    width: auto;
+    background-color: #cdcdcd;
+    padding: 30px 50px 50px;
+    position: absolute;
+    top: 0px;
+    bottom: auto;
+}
+
+.sinye .ann_daoh .year_list {
+    position: relative;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sinye .ann_daoh .year_list .yuan {
+    width: 10px;
+    height: 10px;
+    margin-right: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.sinye .ann_daoh .year_list .year {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "AvantGarde Bk BT";
+}
+
+.sinye .ann_daoh .year_list .line {
+    height: 65px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 4.7px;
+    top: 50%;
+}
+
+.sinye .ann_daoh .year_list:last-child .line {
+    height: 35px;
+}
+
+.sinye .ann_daoh .year_list.active .year {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sinye .ann_daoh .year_list.active .yuan {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.sinye .container {
+    display: flex;
+}
+
+.sinye .ann_left {
+    width: 22%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.sinye .ann_right {
+    width: 78%;
+    padding: 50px 0 0 75px;
+}
+
+.sinye .ann_right .kuai_list .kuai_year {
+    width: 200px;
+    flex-shrink: 0;
+    font-family: "AvantGarde Bk BT";
+    color: #000000;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.sinye .ann_right .kuai_list .ann_list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 39px 0;
+    font-size: 18px;
+    line-height: 36px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.sinye .ann_right .kuai_list .sadsads {
+    width: 100%;
+}
+
+.sinye .ann_right .kuai_list .sadsads .title {
+    color: #333;
+}
+
+.sinye .ann_right .kuai_list .sadsads .time {
+    color: #999;
+    font-family: "AvantGarde Bk BT";
+}
+
+.sinye .ann_right .kuai_list .sadsads a:hover .title {
+    color: #00a9eb;
+}
+
+.sinye .ann_right .kuai_list .sadsads a:first-child .ann_list {
+    padding-top: 0;
+}
+
+.sinye .ann_right .kuai_list .ann_list_down {
+    width: 28px;
+    height: 32px;
+    margin-left: 10%;
+    flex-shrink: 0;
+}
+
+.ann_right .dqbg div {
+    color: #666666;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ann_right .dqbg {
+    width: calc(25% - 30px);
+    margin: 15px;
+    overflow: hidden;
+}
+
+.ann_right .dqbg img {
+    width: 100%;
+    -webkit-transition: ease .4s;
+    -moz-transition: ease .4s;
+    -o-transition: ease .4s;
+    transition: ease .4s;
+}
+
+.ann_right .dqbg:hover img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.dqbgall .sadsads {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.dqbgall .ann_right .kuai_list:first-child {
+    margin-top: 0px;
+}
+
+.dqbgall .ann_right .kuai_list {
+    margin-top: 50px;
+}
